@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.heart{
+    position: fixed;
+    top: -1vh;
+    transform: translateY(0);
+    font-size: 1.4rem;
+    animation: fall 3s linear forwards;
+}
+@keyframes fall{
+    to {
+        transform: translateY(200vh);
+    }
+}
+h2{
+    color: rebeccapurple;
+    text-shadow:5px 5px 10px lightblue;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
