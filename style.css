@@ -17,9 +17,15 @@ body{
     }
 }
 h2{
-    color: rebeccapurple;
+    color: #5B5EA6;
     text-shadow:5px 5px 10px lightblue;
     font-size: 30px;
     font-family:'Times New Roman', Times, serif;
     font-weight: bold;
+}
+.fst{
+    color: rebeccapurple;
+}
+.scd{
+    color: #101010;
 }
