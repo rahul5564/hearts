@@ -7,7 +7,7 @@ function createheart() {
 
     heart.style.left = Math.random() * 100 + "vw"; 
 
-    heart.style.animationDuration = Math.random() * 2 + 3 + "s";
+    heart.style.animationDuration = Math.random() * 5 + 5 + "s";
 
     document.body.appendChild(heart);
 }
